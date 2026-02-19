@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #111111;
+  font-family: "Raleway", "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 1.12rem;
+  line-height: 1.62;
+}
+
+a {
+  color: #111111;
+}
+
+a:hover,
+a:focus {
+  color: #111111;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.space {
+  flex: 0 0 17%;
+  min-width: 2.25rem;
+}
+
+.main {
+  width: 100%;
+  max-width: 32rem;
+  padding: 3.7rem 1.25rem 3rem 0;
+}
+
+.site-mark {
+  margin: 0;
+  line-height: 0.88;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  font-style: italic;
+  font-family: "Josefin Sans", "Avenir Next", "Segoe UI", sans-serif;
+  font-size: clamp(3.5rem, 8vw, 5rem);
+}
+
+.site-mark a {
+  color: #d24b3d;
+  text-decoration: none;
+}
+
+.content {
+  padding-left: 0.8rem;
+  margin-top: 0.75rem;
+  max-width: 30rem;
+}
+
+h1 {
+  margin: 0 0 0.45rem;
+  font-size: 1.95rem;
+  line-height: 1.2;
+  font-weight: 500;
+  font-family: "Josefin Sans", "Avenir Next", "Segoe UI", sans-serif;
+}
+
+h2 {
+  margin: 1.6rem 0 0.45rem;
+  font-size: 1.17rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.lead {
+  margin: 0 0 1.25rem;
+}
+
+.meta {
+  margin-bottom: 1.35rem;
+  font-size: 1rem;
+}
+
+.post-list {
+  padding-left: 1.1rem;
+  margin: 0 0 1.45rem;
+}
+
+.post-list li {
+  margin-bottom: 0.65rem;
+}
+
+.simple-nav {
+  padding-left: 0.8rem;
+  margin-top: 0.9rem;
+  font-size: 1.12rem;
+}
+
+.simple-nav a {
+  text-decoration: none;
+}
+
+.simple-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.simple-nav .sep {
+  margin: 0 0.62rem;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 1.05rem;
+  }
+
+  .layout {
+    display: block;
+    min-height: auto;
+  }
+
+  .space {
+    display: none;
+  }
+
+  .main {
+    max-width: none;
+    padding: 2.2rem 1rem 2.3rem;
+  }
+
+  .site-mark {
+    font-size: clamp(3rem, 15vw, 4.4rem);
+  }
+
+  .content,
+  .simple-nav {
+    padding-left: 0;
+  }
+}
