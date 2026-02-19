@@ -2,9 +2,9 @@
 
 This project is a simple static blog structure where every page is directly accessible as:
 
-- `https://your-domain.com/index.html`
-- `https://your-domain.com/contact.html`
-- `https://your-domain.com/tournament.html`
+- `https://jonathanisonline.com/index.html`
+- `https://jonathanisonline.com/contact.html`
+- `https://jonathanisonline.com/tournament.html`
 
 ## Files
 
@@ -18,7 +18,7 @@ This project is a simple static blog structure where every page is directly acce
 ## Before Publishing
 
 1. Replace placeholder copy in all HTML files with your raw content.
-2. Replace `https://your-domain.com/...` in:
+2. If your domain changes in the future, update these files:
 - `index.html`
 - `contact.html`
 - `tournament.html`
@@ -44,7 +44,7 @@ This project is a simple static blog structure where every page is directly acce
 5. Add alt text to every content image.
 6. Keep pages fast: compress images and avoid heavy scripts.
 7. Submit your sitemap in Google Search Console:
-- `https://your-domain.com/sitemap.xml`
+- `https://jonathanisonline.com/sitemap.xml`
 8. Publish consistently and update old posts when needed.
 
 ## Add New Posts
